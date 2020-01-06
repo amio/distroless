@@ -1,4 +1,4 @@
-FROM node:10.17.0 AS build-env
+FROM node:12.14.0 AS build-env
 ADD . /app
 WORKDIR /app
 
